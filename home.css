@@ -1,0 +1,192 @@
+.content{
+    color: white;
+    font-size: 140%;
+}
+.content p{
+    line-height: 140%;
+    font-size: 150%;
+}
+.quote{
+    font-size: 230%;
+    font-style: italic;
+    text-align: center;
+    color: rgb(238, 34, 34);
+    margin-top: 8%;
+    font-weight: 600;
+}
+.quote_by{
+    line-height: 0%;
+    margin-left: 15%;
+}
+.pay_btn{
+    text-align: center;
+    margin-top: 2%;
+}
+.footer{
+    text-align: center;
+    margin-top: 11%;
+    color: white;
+}
+.footer h3{
+    font-size: 110%;
+}
+.footer a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+}
+.footer p{
+    font-size: 100%;
+}
+
+
+
+
+@media screen and (max-width:400px) and (max-height:767px){
+    .content{
+        font-size: 90%;
+    }
+    .content .p1{
+        font-size: 110%;
+    }
+    .quote{
+        font-size: 150%;
+        margin-top: 25%;
+    }
+    .quote_by{
+        margin-left: 35%;
+    }
+    .pay_btn{
+        margin-top: 10%;
+    }
+    .footer{
+        font-size: 80%;
+        margin-top: 50%;
+    }
+    .footer h3{
+        font-size: 100%;
+    }
+    .footer p{
+        font-size: 90%;
+    }
+}
+
+
+@media screen and (min-width:900px) and (min-height:1366px){
+    .content h1{
+        font-size: 250%;
+    }
+    .content p{
+        font-size: 140%;
+    }
+    .quote{
+        font-size: 260%;
+        margin-top: 25%;
+    }
+    .quote_by{
+        margin-left: 35%;
+    }
+    .pay_btn{
+        margin-top: 15%;
+    }
+    .footer{
+        font-size: 100%;
+        margin-top: 80%;
+    }
+    .footer h3{
+        font-size: 70%;
+    }
+    .footer a{
+        font-size: 160%;
+    }
+    .footer p{
+        font-size: 60%;
+    }
+}
+
+
+@media screen and (min-device-width:800px) and (orientation: portrait){
+    .content h1{
+        font-size: 200%;
+    }
+    .content p{
+        line-height: 120%;
+        font-size: 150%;
+    }
+    .quote{
+        font-size: 240%;
+        margin-top: 20%;
+    }
+    .quote_by{
+        margin-left: 35%;
+    }
+    .pay_btn{
+        margin-top: 20%;
+    }
+    .footer{
+        font-size: 110%;
+        margin-top: 50%;
+    }
+}
+
+@media (max-device-width:1199px) and (orientation: landscape){
+    .content h1{
+        font-size: 220%;
+    }
+    .content p{
+        line-height: 120%;
+        font-size: 150%;
+    }
+    .quote{
+        font-size: 245%;
+        margin-top: 20%;
+    }
+    .quote_by{
+        margin-left: 35%;
+    }
+    .pay_btn{
+        margin-top: 20%;
+    }
+    .footer{
+        font-size: 110%;
+        margin-top: 10%;
+    }
+}
+
+
+@media screen and (min-device-width:1200px) and (max-device-width:1600px){
+    .content h1{
+        font-size: 200%;
+    }
+    .content p{
+        line-height: 120%;
+        font-size: 130%;
+    }
+    .quote{
+        font-size: 230%;
+        margin-top: 15%;
+    }
+    .quote_by{
+        margin-left: 35%;
+    }
+    .pay_btn{
+        margin-top: 15%;
+    }
+    .footer{
+        text-align: center;
+        margin-top: 15%;
+        color: white;
+    }
+    .footer h3{
+        font-size: 110%;
+    }
+    .footer a{
+        font-size: 120%;
+        text-decoration: none;
+        margin-right: 15px;
+        color: white;
+    }
+    .footer p{
+        font-size: 100%;
+    }
+}
